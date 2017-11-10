@@ -1,0 +1,2392 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+aprequest
+</name>
+</assembly>
+<members>
+<member name="F:aprequest.ForceEMail.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ForceEMail.txtGUID">
+	<summary>
+txtGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ForceEMail.ddTxns">
+	<summary>
+ddTxns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ForceEMail.btnLookup">
+	<summary>
+btnLookup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ForceEMail.litResult1">
+	<summary>
+litResult1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ForceEMail.btnSend">
+	<summary>
+btnSend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.Head">
+	<summary>
+Head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.frmZZ">
+	<summary>
+frmZZ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.transaction">
+	<summary>
+transaction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.Top">
+	<summary>
+Top control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.aprequest.Bottom">
+	<summary>
+Bottom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.Login">
+	<summary>
+Login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.txtDomain">
+	<summary>
+txtDomain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logon.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.frmZZ">
+	<summary>
+frmZZ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.ddMonth">
+	<summary>
+ddMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.ddEntity">
+	<summary>
+ddEntity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.ddRegion">
+	<summary>
+ddRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.pt_picker.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:aprequest.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:aprequest.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:aprequest.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:aprequest.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:aprequest.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:aprequest.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:aprequest.dsSage.tblAcctCode_0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_5DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_9DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_5Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_9Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_5RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSage.tblAcctCode_9RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSage">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.tblAcctCode_0TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.tblAcctCode_3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.tblAcctCode_4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.tblAcctCode_5TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.tblAcctCode_9TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:aprequest.dsSageTableAdapters.TableAdapterManager.UpdateUpdatedRows(aprequest.dsSage,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsSageTableAdapters.TableAdapterManager.UpdateInsertedRows(aprequest.dsSage,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsSageTableAdapters.TableAdapterManager.UpdateDeletedRows(aprequest.dsSage,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:aprequest.dsSageTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:aprequest.dsSageTableAdapters.TableAdapterManager.UpdateAll(aprequest.dsSage)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:aprequest.dsSageTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:aprequest.dsLogs.LogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsLogs.LogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsLogs.LogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsLogs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:aprequest.dsLogsTableAdapters.Log_TA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:aprequest.dsLogsTableAdapters.TableAdapterManager.UpdateUpdatedRows(aprequest.dsLogs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsLogsTableAdapters.TableAdapterManager.UpdateInsertedRows(aprequest.dsLogs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsLogsTableAdapters.TableAdapterManager.UpdateDeletedRows(aprequest.dsLogs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:aprequest.dsLogsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:aprequest.dsLogsTableAdapters.TableAdapterManager.UpdateAll(aprequest.dsLogs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:aprequest.dsLogsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:aprequest.dsLogsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:aprequest.dsLogsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:aprequest.logviewer.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.logviewer.tblLog">
+	<summary>
+tblLog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exportrebuild.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exportrebuild.txtReqNo">
+	<summary>
+txtReqNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exportrebuild.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:aprequest.dsRequestDetails.requestdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.txnsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.apsetupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.holdreasonsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.requestdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.txnsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.apsetupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.holdreasonsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.requestdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.txnsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.apsetupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsRequestDetails.holdreasonsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsRequestDetails">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.requestdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.txnsTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.apsetupTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.holdreasonsTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.UpdateUpdatedRows(aprequest.dsRequestDetails,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.UpdateInsertedRows(aprequest.dsRequestDetails,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.UpdateDeletedRows(aprequest.dsRequestDetails,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.UpdateAll(aprequest.dsRequestDetails)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:aprequest.dsRequestDetailsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:aprequest.profile.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.profile.sigPhrase1">
+	<summary>
+sigPhrase1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.profile.btnESig">
+	<summary>
+btnESig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.profile.flub1">
+	<summary>
+flub1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.profile.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.attachfile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.attachfile.file1">
+	<summary>
+file1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.attachfile.txnid">
+	<summary>
+txnid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.attachfile.btnGO">
+	<summary>
+btnGO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.attachfile.btnOK">
+	<summary>
+btnOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txnGUID">
+	<summary>
+txnGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txnNumber">
+	<summary>
+txnNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.defaulthash">
+	<summary>
+defaulthash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.blnMultiSite">
+	<summary>
+blnMultiSite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.FiscalYr">
+	<summary>
+FiscalYr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.BigSiteName">
+	<summary>
+BigSiteName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.ddFiscalYr">
+	<summary>
+ddFiscalYr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnCopy">
+	<summary>
+btnCopy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnEdit">
+	<summary>
+btnEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnDel">
+	<summary>
+btnDel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnAttach">
+	<summary>
+btnAttach control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.litHeader">
+	<summary>
+litHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.DetailsTable">
+	<summary>
+DetailsTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.litBody">
+	<summary>
+litBody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtADept">
+	<summary>
+txtADept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtAServ">
+	<summary>
+txtAServ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtAGLAc">
+	<summary>
+txtAGLAc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtAPayr">
+	<summary>
+txtAPayr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtAPern">
+	<summary>
+txtAPern control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.txtAAmnt">
+	<summary>
+txtAAmnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnAddRow">
+	<summary>
+btnAddRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.litApproved">
+	<summary>
+litApproved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnApprove">
+	<summary>
+btnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.editreq.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:aprequest.dsUsers.userconfigDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsUsers.managersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsUsers.userconfigRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsUsers.managersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsUsers.userconfigRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsUsers.managersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsUsers">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:aprequest.dsUsersTableAdapters.userconfigTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsUsersTableAdapters.managersTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:aprequest.dsUsersTableAdapters.TableAdapterManager.UpdateUpdatedRows(aprequest.dsUsers,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsUsersTableAdapters.TableAdapterManager.UpdateInsertedRows(aprequest.dsUsers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsUsersTableAdapters.TableAdapterManager.UpdateDeletedRows(aprequest.dsUsers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:aprequest.dsUsersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:aprequest.dsUsersTableAdapters.TableAdapterManager.UpdateAll(aprequest.dsUsers)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:aprequest.dsUsersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:aprequest.dsUsersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:aprequest.dsUsersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:aprequest.ProcPDF.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.frmUA">
+	<summary>
+frmUA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.Img2">
+	<summary>
+Img2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tblUsrs">
+	<summary>
+tblUsrs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tblUsrsHead">
+	<summary>
+tblUsrsHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhName">
+	<summary>
+tuhName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhUsername">
+	<summary>
+tuhUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhManager">
+	<summary>
+tuhManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhEntity">
+	<summary>
+tuhEntity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhRegion">
+	<summary>
+tuhRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhSite">
+	<summary>
+tuhSite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhLimit">
+	<summary>
+tuhLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.tuhAccount">
+	<summary>
+tuhAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.lbAppr">
+	<summary>
+lbAppr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.ddEnt">
+	<summary>
+ddEnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.ddReg">
+	<summary>
+ddReg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.ddSite">
+	<summary>
+ddSite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.useradmin.ddFY">
+	<summary>
+ddFY control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns2.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.usrGUID">
+	<summary>
+usrGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.ddlFilter">
+	<summary>
+ddlFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.ddlSort">
+	<summary>
+ddlSort control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.ddlDirection">
+	<summary>
+ddlDirection control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.btnRefresh">
+	<summary>
+btnRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.txtEffDate">
+	<summary>
+txtEffDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.btnExport">
+	<summary>
+btnExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.chkSim">
+	<summary>
+chkSim control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.btnApprove">
+	<summary>
+btnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.btnTest">
+	<summary>
+btnTest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter.litDbg">
+	<summary>
+litDbg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkAdmin">
+	<summary>
+lnkAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkExport">
+	<summary>
+lnkExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkDones">
+	<summary>
+lnkDones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkAppr">
+	<summary>
+lnkAppr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkMine">
+	<summary>
+lnkMine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkRequest">
+	<summary>
+lnkRequest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.Toplinks.lnkLogout">
+	<summary>
+lnkLogout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ProcessedTxns.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.Img2">
+	<summary>
+Img2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.usrGUID">
+	<summary>
+usrGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.myreqs.dbg">
+	<summary>
+dbg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txnGUID">
+	<summary>
+txnGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txnNumber">
+	<summary>
+txnNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.blnMultiSite">
+	<summary>
+blnMultiSite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.defaulthash">
+	<summary>
+defaulthash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.FiscalYr">
+	<summary>
+FiscalYr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.BigSiteName">
+	<summary>
+BigSiteName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.ddFiscalYr">
+	<summary>
+ddFiscalYr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnCopy">
+	<summary>
+btnCopy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnEdit">
+	<summary>
+btnEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnDel">
+	<summary>
+btnDel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnAttach">
+	<summary>
+btnAttach control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.litHeader">
+	<summary>
+litHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.litBody">
+	<summary>
+litBody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtADept">
+	<summary>
+txtADept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtAServ">
+	<summary>
+txtAServ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtAGLAc">
+	<summary>
+txtAGLAc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtAPayr">
+	<summary>
+txtAPayr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtAPern">
+	<summary>
+txtAPern control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.txtAAmnt">
+	<summary>
+txtAAmnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnAddRow">
+	<summary>
+btnAddRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.lblPhrase1">
+	<summary>
+lblPhrase1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.sigPhrase1">
+	<summary>
+sigPhrase1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.lblInstru">
+	<summary>
+lblInstru control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnESig">
+	<summary>
+btnESig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest._default.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.Img2">
+	<summary>
+Img2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.imgBC">
+	<summary>
+imgBC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.lblMesg">
+	<summary>
+lblMesg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtEntiTitle">
+	<summary>
+txtEntiTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtEntiCode">
+	<summary>
+txtEntiCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtRegnTitle">
+	<summary>
+txtRegnTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtRegnCode">
+	<summary>
+txtRegnCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.BigSiteName">
+	<summary>
+BigSiteName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtVendTitle">
+	<summary>
+txtVendTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtVendCode">
+	<summary>
+txtVendCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtFiscTitle">
+	<summary>
+txtFiscTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtFiscCode">
+	<summary>
+txtFiscCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtInvNo">
+	<summary>
+txtInvNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtInvDt">
+	<summary>
+txtInvDt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtDueDt">
+	<summary>
+txtDueDt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtAmount">
+	<summary>
+txtAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtReqst">
+	<summary>
+txtReqst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.txtApprv">
+	<summary>
+txtApprv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.litApprvDate">
+	<summary>
+litApprvDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdSite">
+	<summary>
+hdSite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdDept">
+	<summary>
+hdDept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdServ">
+	<summary>
+hdServ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdGLAc">
+	<summary>
+hdGLAc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdPayer">
+	<summary>
+hdPayer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdPern">
+	<summary>
+hdPern control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.hdAmnt">
+	<summary>
+hdAmnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.singletransaction.litSp_Notes">
+	<summary>
+litSp_Notes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.frmZZ">
+	<summary>
+frmZZ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.ddMonth">
+	<summary>
+ddMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.ddEntity">
+	<summary>
+ddEntity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.ddRegion">
+	<summary>
+ddRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.ex_picker.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.usrGUID">
+	<summary>
+usrGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.btnApprove">
+	<summary>
+btnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.approval.dbg">
+	<summary>
+dbg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.datedisp">
+	<summary>
+datedisp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.Toplinks1">
+	<summary>
+Toplinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.errorLabel">
+	<summary>
+errorLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.usrGUID">
+	<summary>
+usrGUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.ulink">
+	<summary>
+ulink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.lnkBack">
+	<summary>
+lnkBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.litNote">
+	<summary>
+litNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.ddlFilter">
+	<summary>
+ddlFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.ddlSort">
+	<summary>
+ddlSort control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.ddlDirection">
+	<summary>
+ddlDirection control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.btnRefresh">
+	<summary>
+btnRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.tblTrans">
+	<summary>
+tblTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.btnApprove">
+	<summary>
+btnApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.txtEffDate">
+	<summary>
+txtEffDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.chkSim">
+	<summary>
+chkSim control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.btnExport">
+	<summary>
+btnExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.btnTest">
+	<summary>
+btnTest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:aprequest.exporter2.litDbg">
+	<summary>
+litDbg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:aprequest.dsSessions.sessionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSessions.activity_logDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:aprequest.dsSessions.sessionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSessions.activity_logRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:aprequest.dsSessions.sessionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSessions.activity_logRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:aprequest.dsSessions">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:aprequest.dsSessionsTableAdapters.sessionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:aprequest.dsSessionsTableAdapters.activity_logTA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:aprequest.dsSessionsTableAdapters.TableAdapterManager.UpdateUpdatedRows(aprequest.dsSessions,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsSessionsTableAdapters.TableAdapterManager.UpdateInsertedRows(aprequest.dsSessions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:aprequest.dsSessionsTableAdapters.TableAdapterManager.UpdateDeletedRows(aprequest.dsSessions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:aprequest.dsSessionsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:aprequest.dsSessionsTableAdapters.TableAdapterManager.UpdateAll(aprequest.dsSessions)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:aprequest.dsSessionsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:aprequest.dsSessionsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:aprequest.dsSessionsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

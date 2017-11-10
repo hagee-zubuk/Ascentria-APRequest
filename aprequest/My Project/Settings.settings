@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LDAP_Path" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LDAP://DC=lssne,DC=domain</Value>
+    </Setting>
+    <Setting Name="Domain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">lssne</Value>
+    </Setting>
+    <Setting Name="MailSender" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hagee@zubuk.com</Value>
+    </Setting>
+    <Setting Name="DebugRecpt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hagee@zubuk.com</Value>
+    </Setting>
+    <Setting Name="UploadPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Downloads</Value>
+    </Setting>
+    <Setting Name="DownloadPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\work\LSS - APCheckRequest\scratch</Value>
+    </Setting>
+    <Setting Name="LogLevel" Type="System.Byte" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SMTPPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SMTPUsername" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hagee</Value>
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">slave4life</Value>
+    </Setting>
+    <Setting Name="SMTPSubjectPrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[ap request]</Value>
+    </Setting>
+    <Setting Name="SMTPUseSecurity" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SMTPSender" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hagee@zubuk.com</Value>
+    </Setting>
+    <Setting Name="ReqPrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">APICHKRQT</Value>
+    </Setting>
+    <Setting Name="PDFurl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://languagebank.lssne.org/apr_pdf/txn_test.asp</Value>
+    </Setting>
+    <Setting Name="AcceptAllCombos" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTPServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smail.zubuk.com</Value>
+    </Setting>
+    <Setting Name="BarcodeURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.argao.net/barcoder/index.php?code=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="detailrow_del.aspx.vb" Inherits="aprequest.detailrow_del" %>

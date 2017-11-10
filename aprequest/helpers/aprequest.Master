@@ -1,0 +1,37 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="aprequest.master.vb" Inherits="aprequest.aprequest" %>
+<%@ Register src="~/helpers/Toplinks.ascx" tagname="Toplinks" tagprefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <link href="~/aprequest.css" rel="Stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="<%= ResolveclientUrl("~/js/prototype.js")%>" ></script>
+    <script language="javascript" type="text/javascript" src="<%= ResolveclientUrl("~/js/scriptaculous.js")%>"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="frmZZ" runat="server">
+<div id="ascbox" class="ascbox">
+<img id="Img1" src="~/images/ascentria-logo.gif" runat="server" alt="Ascentria Care Alliance" title="" style="height: 80px; width:286px; float: left;"/>
+<div style="width: 286px; height: 16px; float: right; margin: 20px 20px 0px 0px; font: 10pt bold Calibri, Tahoma, Verdana, Arial, Helvetica; color: #888; text-align: right;">
+<asp:Literal ID="datedisp" runat="server"></asp:Literal></div>
+<uc1:Toplinks ID="Toplinks1" runat="server" />
+</div>
+        <div id="top" class="content">
+            <div style="width: 26%; float: left;">
+                Welcome, <asp:LinkButton ID="ulink" runat="server" Text="Unknown User"></asp:LinkButton>
+            </div>
+            <div id="txnblock" style="width: 100%; float: left; text-align: center; margin: 0px auto; clear: both;">
+                Transaction: <div id="trans_no" style="display: inline;"><asp:Label ID="transaction" runat="server" Text="xxxxx"></asp:Label></div>
+            </div>
+            <div style="float:none; clear: both;">&nbsp;</div>
+            <asp:ContentPlaceHolder ID="Top" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="bottom" class="content">
+            <asp:ContentPlaceHolder ID="Bottom" runat="server"></asp:ContentPlaceHolder>
+            <br style="clear: both;" />
+        </div>
+    </form>
+</body>
+</html>

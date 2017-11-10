@@ -1,0 +1,599 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+/* html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline) v1.4 2009-07-27
+ | Authors: Eric Meyer & Richard Clark html5doctor.com/html-5-reset-stylesheet/
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header,&nbsp;hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+	margin					: 0px;
+	padding					: 0px;
+	border					: 0px;
+	outline					: 0px;
+	font-size				: 100%;
+	vertical-align			: baseline;
+	background				: transparent;
+}
+
+article, aside, figure, footer, header,
+hgroup, nav, section { display:block; }
+
+nav ul { list-style:none; }
+
+blockquote, q { quotes:none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+
+a { 
+	background				: transparent;
+	font-size				: 100%;
+	margin					: 0;
+	padding					: 0;
+	vertical-align			: baseline;
+}
+
+ins {
+	background-color		: #ff9;
+	color					: #000;
+	text-decoration			: none;
+}
+
+mark {
+	background-color		: #ff9;
+	color					: #000;
+	font-style				: italic;
+	font-weight				: bold;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+	border-bottom			: 1px dotted #000;
+	cursor					: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table { border-collapse:collapse; border-spacing:0; }
+
+hr {
+	border					: 0;
+	border-top				: 1px solid #ccc;
+	display					: block;
+	height					: 1px;
+	margin					: 1em 0;
+	padding					: 0;
+}
+
+input, select { vertical-align:middle; }
+/* END RESET CSS */
+
+
+/* BEGIN: CALENDAR VIEW STYLES */
+div.calendar {
+    font-family             : Calibri, Tahoma, Verdana, Arial, Helvetica;    
+    font-size               : smaller;
+    color                   : #000;
+}
+
+div.calendar.popup {
+  margin-left           : -40px;
+  margin-top            : -100px;
+}
+
+div.calendar table {
+  background-color      : #eee;
+  border                : 1px solid #aaa;
+  border-collapse       : collapse;
+}
+
+div.calendar thead {
+  background-color      : white;
+}
+
+div.calendar td, div.calendar th {
+  padding               : 3px;
+  text-align            : center;
+}
+
+div.calendar td.title {
+  font-weight           : bold;
+}
+
+div.calendar th {
+  background            : #a33;
+  border-bottom         : 1px solid #922;
+  border-top            : 1px solid #922;
+  font-weight           : bold;
+  color                 : #aaa;
+}
+
+div.calendar tr.days td {
+  width                 : 2em;
+  color                 : #555;
+  text-align            : center;
+  cursor                : pointer;
+}
+
+div.calendar tr.days td:hover, div.calendar td.button:hover {
+  background-color      : #a55;
+  cursor                : pointer;
+}
+
+div.calendar tr.days td:active div.calendar td.button:active {
+  background-color      : #cde;
+}
+
+div.calendar tr.days td.selected {
+  font-weight           : bold;
+  background-color      : #fff;
+  color                 : #000;
+}
+
+div.calendar tr.days td.today {
+  font-weight           : bold;
+  color                 : #D50000;
+}
+
+div.calendar tr.days td.otherDay {
+  color                 : #bbb;
+}
+/* END: CALENDAR VIEW STYLES */
+
+/* BEGIN: LSS-specific rules */
+div.calbutton {
+    /*background          : white url('images/calendar.gif') no-repeat left top;*/
+    margin-top          : 1px;
+    border              : 0px solid red;
+    height              : 20px;
+    width               : 20px;
+    display             : inline;
+}
+
+.content {
+	font-family: Calibri, Tahoma, Verdana, Arial, Helvetica;
+	font-size: 11pt;
+	color: #333;
+}
+
+.content h1 {
+    font-size: 12pt;
+}
+
+div.content {
+	width: 730px;
+	margin: 0px auto 0px auto;
+	background-color: White;
+}
+
+#top {
+	min-height: 200px;
+	border: 1px dotted #fcc;
+	padding: 2px 10px;
+}
+
+#bottom {
+	min-height: 300px;
+	border: 1px dotted #ccc;
+	margin-top: 10px;
+	padding: 6px 10px 5px 10px;
+}
+
+td, textarea, input, select {
+	font-family				: inherit;
+	font-size				: inherit;
+	font-weight				: inherit;
+	padding-left			: 4px;
+	padding-right			: 4px;
+}
+
+input, select {
+	line-height				: 15px;
+	font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 11pt;
+}
+
+a, input, select {
+	outline					: 0;
+}
+
+select {
+	padding-right			: 1px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="search"], input[type="email"], input[type="url"], textarea {
+	-moz-box-sizing			: border-box;
+	-webkit-box-sizing		: border-box;
+	-ms-box-sizing			: border-box;
+	box-sizing				: border-box;
+	padding					: 0px 2px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select {
+	border-color			: #DFDFDF;
+	background-color		: white;
+	color					: #333;
+}
+
+select {
+	text-overflow			: ellipsis;
+}
+
+.widefat, div.updated, div.error, .wrap .add-new-h2, textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select, .tablenav .tablenav-pages a, .tablenav-pages span.current, #titlediv #title, .postbox, #postcustomstuff table, #postcustomstuff input, #postcustomstuff textarea, .imgedit-menu div, .plugin-update-tr .update-message, #poststuff .inside .the-tagcloud, .login form, #login_error, .login .message, #menu-management .menu-edit, .nav-menus-php .list-container, .menu-item-handle, .link-to-original, .nav-menus-php .major-publishing-actions .form-invalid, .press-this #message, #TB_window, .tbtitle, .highlight, .feature-filter, #widget-list .widget-top, .editwidget .widget-inside {
+	-webkit-border-radius	: 3px;
+	border-radius			: 3px;
+	border-width			: 1px;
+	border-style			: solid;
+}
+
+.submit input, .button, input.button, .button-primary, input.button-primary,
+.button-secondary, input.button-secondary,
+.button-secogreen, input.button-secogreen, 
+.button-highlighted, input.button-highlighted, #postcustomstuff .submit input {
+	-moz-box-sizing			: content-box;
+	-webkit-border-radius	: 11px;
+	-webkit-box-sizing		: content-box;
+	-moz-border-radius		: 11px;
+	-khtml-border-radius	: 11px;
+	behavior				: url('border-radius.htc');
+	border-radius			: 11px;
+	border-style			: solid;
+	border-width			: 1px;
+	box-sizing				: content-box;
+	cursor					: pointer;
+	font-size				: 12px!important;
+	line-height				: 13px;
+	padding					: 3px 8px 4px 7px;
+	text-decoration			: none;
+}
+
+input.price[type="text"] {
+	text-align				: right;
+	padding-right			: 3px;
+	padding-left			: 3px;
+	margin-top				: 0px;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	background				: #a33 repeat-x scroll left top;
+	background-color		: #a33!important;
+	border-color			: #800000;
+	color					: white;
+	margin					: 1px 5px;
+	font-family				: Candara, 'Trebuchet MS', Verdana;
+	font-weight				: bold;
+	text-shadow				: rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+
+input.button-secondary, button.button-secondary, a.button-secondary {
+	background				: #a44 repeat-x scroll left top;
+	background-color		: #a44!important;
+	border-color			: #514;
+	color					: white;
+	font-size				: 10px!important;
+	font-weight				: bold;
+	line-height				: 11px;
+	text-shadow				: rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+
+input.button-secogreen, button.button-secogreen, a.button-secogreen {
+	background				: #4a4 repeat-x scroll left top;
+	background-color		: #4a4!important;
+	border-color			: #154;
+	color					: white;
+	font-size				: 10px!important;
+	font-weight				: bold;
+	line-height				: 11px;
+	text-shadow				: rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+
+#logon, #logon td {
+	font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 11pt;
+}
+
+div.modalPopup 
+{
+	background-color: #ddd;
+	font-size: 11pt;
+	padding: 20px;
+}
+
+.money {
+	font-family				: Consolas, 'Lucida Console', 'Courier New';
+	font-size				: 10pt;
+}
+
+.errormessage {
+	background-color		: yellow;
+	color					: red;
+	font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 9pt;
+}
+
+div.autocomplete {
+	position				: absolute;
+	width					: 350px;
+	min-width               : 350px;
+	background-color		: white;
+	border					: 1px solid #DFDFDF;
+	margin					: 5px 10px 0px 0px;
+	padding					: 0;
+}
+
+div.autocomplete ul {
+	list-style-type			: none;
+	margin					: 0;
+	padding					: 0;
+}
+
+div.autocomplete ul li.selected { background-color: #fee; }
+div.autocomplete ul li {
+	list-style-type			: none;
+	display					: block;
+	margin					: 0;
+	padding					: 0px;
+	height					: 16px;
+	cursor					: pointer;
+	font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 9pt;
+}
+
+.align-center {
+	text-align				: center;
+}
+
+.align-right {
+    text-align              : right;
+}
+
+/* GRIDVIEW */
+.grid {
+    font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+    font-size               : 10pt;
+    border                  : 1px solid #888;
+    border-collapse         : collapse;
+    color                   : #333;
+    width                   : 100%;
+}
+
+.gridheading, .grid th {
+    border                  : 1px solid #ddd;
+    color                   : Menu;
+    padding                 : 4px 2px;
+    vertical-align          : bottom;
+    text-align              : center;
+    background-color        : #a33;
+    font-family             : 'Open Sans Condensed', Candara, 'Trebuchet MS', Verdana;
+}
+
+.gridheading {
+        background-color        : #abb;
+}
+
+.grid td {
+    color                   : #333;
+    border-bottom           : solid 1px #edb;
+    padding                 : 4px 2px;
+}
+
+.gridRow {
+    background-color        : #dbb;
+}
+
+.gridAltRow {
+    background-color        : #fcc;
+}
+
+.gridEditRow {
+    background-color        : #0dd;
+}
+
+.gridFooterRow {
+    background-color        : #eee;
+}
+
+.grid tr.gridRow:hover, .grid tr.gridAltRow:hover {
+    font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+    font-size               : 10pt;
+    border                  : solid 1px #888;
+    border-collapse         : collapse;
+    background-color        : #e9b;
+}
+
+.hCursor {
+    cursor                  : pointer;
+    cursor                  : hand;
+} 
+
+.idElem {
+    color                   : #a33;
+}
+
+.addbox {
+    width                   : 70px;
+    text-align              : center;
+}
+
+.modal_link {
+    color                   : #333;
+}
+
+A.modal_link:link, A.modal_link:active, A.modal_link:visited {
+    color                   : #333;
+}
+
+A.modal_link:hover {
+    color                   : #a33;
+}
+
+.appminiheader {
+	color					: #ccc;
+	background-color		: #a33;
+	font-size				: 8pt;
+	font-family				: 'Open Sans Condensed', Calibri, Tahoma;
+}
+
+.detamaxi, .apprmaxi {
+	font-family				: verdana, calibri, tahoma;
+	font-size				: 10pt;
+}
+
+tr.apprmaxi, td.apprmaxi {
+	border-top				: 1px dotted #a33;
+}
+
+td.apprmaxismall {
+    padding                 : 0px;
+    margin                  : 0px;
+    font-weight             : bold;
+    text-align              : left;
+}
+
+td.detamaxi {
+    padding                 : 1px 4px;
+    margin                  : 0px;
+    border                  : 1px dotted #ccc;
+    font-weight             : normal;
+}
+
+.apprmaxismall {
+    font-size				: 9pt;
+    font-family				: Calibri, Tahoma;
+	border-top				: 1px dotted #a33;
+}
+
+.apprmaxismall a {
+    font-size				: 9pt;
+    font-family				: Calibri, Tahoma;
+}
+
+.apprmini {
+	font-family				: Calibri, Tahoma;
+	font-size				: 9pt;
+}
+
+table.apprmini {
+	margin-left				: auto;
+	margin-right			: auto;
+	clear					: both;
+}
+
+.redbottomborder, td.appmini, td.apprmini {
+	border-bottom			: 1px dotted #c66;
+}
+
+.appmini-right {
+	border-right : 1px dotted #c66;
+	padding-right : 0px;
+}
+.appmini-left {
+	border-left : 1px dotted #c66;
+	padding-left : 0px;
+}
+
+.appmini-top {
+	border-top : 1px dotted #c66;
+	padding-top : 0px;
+}
+
+.appmini-bottom {
+	border-bottom : 1px dotted #c66;
+	padding-bottom : 0px;
+}
+
+td.appmini, td.apprmini {
+	border-left				: 1px dotted #c66;
+	padding                 : 0px;
+}
+
+.wider {
+	width					: 200px;
+}
+
+.serifate {
+	font-weight				: bold;
+	font-family				: consolas, 'times new roman';
+	font-size				: 6pt; 
+}
+
+.ipecac {
+}
+
+.topb, .topmenu {
+	font-family				: Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 10pt;
+	font-weight             : bold;
+}
+
+a.topb, a.topmenu, a.topmenu:link, a.topmenu:active
+a.topb:visited, a.topmenu:visited {
+    text-decoration         : none;
+    color                   : red;
+}
+
+a.topb:hover, a.topmenu:hover {
+	text-decoration: underline;
+}
+
+a.topmenu:before {
+    content                 : " \00B7   ";
+}
+
+.smalltext {
+    font-size               : 7pt;
+}
+
+.dotborder {
+    border                  : 1px dotted #a33;
+    width                   : 30px;
+}
+
+.vwlog {
+    font-family				: 'Open Sans Condensed', Calibri, 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica;
+	font-size				: 10pt;
+}
+table.vwlog {
+    border-collapse         : collapse;
+    border                  : 1px dotted #999;
+}
+.vwlog td {
+    border                  : 1px dotted #999;
+}
+.vwlog tr, .vwlog td {
+    font-size               : 9pt;
+}
+
+.middle {
+    margin                  : 3px auto;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+	background-color	: #fef2cd;
+}
+
+/*
+input[type="button"]:focus, input[type="submit"]:focus {
+	border: 5px dotted #fcf0ad;
+}	
+*/
+
+div#ascbox, div.ascbox {
+	width				: 800px;
+	height				: 86px;
+	margin				: 0px auto 0px auto;
+	background-color	: White;
+	clear				: both;
+}
+.barcodesec  {
+	float				: right;
+	height				: 80px;
+	width				: 400px;
+}

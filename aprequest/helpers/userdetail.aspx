@@ -1,0 +1,1 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="userdetail.aspx.vb" EnableViewStateMac="false" EnableViewState="false" Inherits="aprequest.userdetail" %>

@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49198475-F3FA-469D-8717-24AE42612B76}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>aprequest</RootNamespace>
+    <AssemblyName>aprequest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>aprequest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>aprequest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dotnetZipLib\zip-v1.9-Reduced\Release\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="logon.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="approval.aspx.designer.vb">
+      <DependentUpon>approval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="approval.aspx.vb">
+      <DependentUpon>approval.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="attachfile.aspx.designer.vb">
+      <DependentUpon>attachfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="attachfile.aspx.vb">
+      <DependentUpon>attachfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Bigexport.aspx.designer.vb">
+      <DependentUpon>Bigexport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bigexport.aspx.vb">
+      <DependentUpon>Bigexport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="exporter2.aspx.designer.vb">
+      <DependentUpon>exporter2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exporter2.aspx.vb">
+      <DependentUpon>exporter2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exportrebuild.aspx.designer.vb">
+      <DependentUpon>exportrebuild.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exportrebuild.aspx.vb">
+      <DependentUpon>exportrebuild.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ex_picker.aspx.designer.vb">
+      <DependentUpon>ex_picker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex_picker.aspx.vb">
+      <DependentUpon>ex_picker.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="myreqs.aspx.designer.vb">
+      <DependentUpon>myreqs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myreqs.aspx.vb">
+      <DependentUpon>myreqs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="processedtxns2.aspx.designer.vb">
+      <DependentUpon>processedtxns2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="processedtxns2.aspx.vb">
+      <DependentUpon>processedtxns2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="e-sig.aspx.designer.vb">
+      <DependentUpon>e-sig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e-sig.aspx.vb">
+      <DependentUpon>e-sig.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="editreq.aspx.designer.vb">
+      <DependentUpon>editreq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editreq.aspx.vb">
+      <DependentUpon>editreq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exporter.aspx.designer.vb">
+      <DependentUpon>exporter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exporter.aspx.vb">
+      <DependentUpon>exporter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForceEMail.aspx.designer.vb">
+      <DependentUpon>ForceEMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForceEMail.aspx.vb">
+      <DependentUpon>ForceEMail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\aprequest.Master.designer.vb">
+      <DependentUpon>aprequest.Master</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\aprequest.Master.vb">
+      <DependentUpon>aprequest.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\atn.aspx.designer.vb">
+      <DependentUpon>atn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\atn.aspx.vb">
+      <DependentUpon>atn.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\checkcomboentry.aspx.designer.vb">
+      <DependentUpon>checkcomboentry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\checkcomboentry.aspx.vb">
+      <DependentUpon>checkcomboentry.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\checksignature.aspx.designer.vb">
+      <DependentUpon>checksignature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\checksignature.aspx.vb">
+      <DependentUpon>checksignature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\dlpdf.aspx.designer.vb">
+      <DependentUpon>dlpdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dlpdf.aspx.vb">
+      <DependentUpon>dlpdf.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\extTxnTA.vb" />
+    <Compile Include="helpers\txn_dele.aspx.designer.vb">
+      <DependentUpon>txn_dele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\txn_dele.aspx.vb">
+      <DependentUpon>txn_dele.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\txn_display2.aspx.designer.vb">
+      <DependentUpon>txn_display2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\txn_display2.aspx.vb">
+      <DependentUpon>txn_display2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\detailrow_add.aspx.designer.vb">
+      <DependentUpon>detailrow_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\detailrow_add.aspx.vb">
+      <DependentUpon>detailrow_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\detailrow_del.aspx.designer.vb">
+      <DependentUpon>detailrow_del.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\detailrow_del.aspx.vb">
+      <DependentUpon>detailrow_del.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\detailrow_display.aspx.designer.vb">
+      <DependentUpon>detailrow_display.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\detailrow_display.aspx.vb">
+      <DependentUpon>detailrow_display.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\detailrow_savesingle.aspx.designer.vb">
+      <DependentUpon>detailrow_savesingle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\detailrow_savesingle.aspx.vb">
+      <DependentUpon>detailrow_savesingle.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\detailrow_updateamount.aspx.designer.vb">
+      <DependentUpon>detailrow_updateamount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\detailrow_updateamount.aspx.vb">
+      <DependentUpon>detailrow_updateamount.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\dld.aspx.designer.vb">
+      <DependentUpon>dld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dld.aspx.vb">
+      <DependentUpon>dld.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\dsLogs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsRequestDetails.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRequestDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsRequestDetails.vb">
+      <DependentUpon>dsRequestDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsSage.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsSessions.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsUsers.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\dsUsers.vb">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\SageDBProxy.aspx.designer.vb">
+      <DependentUpon>SageDBProxy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\SageDBProxy.aspx.vb">
+      <DependentUpon>SageDBProxy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\sethold.aspx.designer.vb">
+      <DependentUpon>sethold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\sethold.aspx.vb">
+      <DependentUpon>sethold.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\Toplinks.ascx.designer.vb">
+      <DependentUpon>Toplinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\Toplinks.ascx.vb">
+      <DependentUpon>Toplinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\txns_add.aspx.designer.vb">
+      <DependentUpon>txns_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\txns_add.aspx.vb">
+      <DependentUpon>txns_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\unapprove.aspx.designer.vb">
+      <DependentUpon>unapprove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\unapprove.aspx.vb">
+      <DependentUpon>unapprove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\userdelete.aspx.designer.vb">
+      <DependentUpon>userdelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\userdelete.aspx.vb">
+      <DependentUpon>userdelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\userdetail.aspx.designer.vb">
+      <DependentUpon>userdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\userdetail.aspx.vb">
+      <DependentUpon>userdetail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="helpers\ZDetailRow.vb" />
+    <Compile Include="helpers\ZFiscalYear.vb" />
+    <Compile Include="helpers\ZHashes.vb" />
+    <Compile Include="helpers\ZMasterPage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\ZPageSecure.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="helpers\ZReqDetails.vb" />
+    <Compile Include="helpers\ZUtils.vb" />
+    <Compile Include="images\ZXLSWriter.vb" />
+    <Compile Include="logon.aspx.designer.vb">
+      <DependentUpon>logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logon.aspx.vb">
+      <DependentUpon>logon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logviewer.aspx.designer.vb">
+      <DependentUpon>logviewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logviewer.aspx.vb">
+      <DependentUpon>logviewer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="modUtils.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="helpers\ZLdapAuthentication.vb" />
+    <Compile Include="processedtxns.aspx.designer.vb">
+      <DependentUpon>processedtxns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="processedtxns.aspx.vb">
+      <DependentUpon>processedtxns.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProcPDF.aspx.designer.vb">
+      <DependentUpon>ProcPDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcPDF.aspx.vb">
+      <DependentUpon>ProcPDF.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.vb">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profile.aspx.vb">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pt_picker.aspx.designer.vb">
+      <DependentUpon>pt_picker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pt_picker.aspx.vb">
+      <DependentUpon>pt_picker.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="singletransaction.aspx.designer.vb">
+      <DependentUpon>singletransaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="singletransaction.aspx.vb">
+      <DependentUpon>singletransaction.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="useradmin.aspx.designer.vb">
+      <DependentUpon>useradmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="useradmin.aspx.vb">
+      <DependentUpon>useradmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="approval.aspx" />
+    <Content Include="aprequest.css" />
+    <Content Include="attachfile.aspx" />
+    <Content Include="Bigexport.aspx" />
+    <Content Include="border-radius.htc" />
+    <Content Include="exporter2.aspx" />
+    <Content Include="exportrebuild.aspx" />
+    <Content Include="ex_picker.aspx" />
+    <Content Include="myreqs.aspx" />
+    <Content Include="processedtxns2.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="e-sig.aspx" />
+    <Content Include="editreq.aspx" />
+    <Content Include="exporter.aspx" />
+    <Content Include="ForceEMail.aspx" />
+    <Content Include="helpers\aprequest.Master" />
+    <Content Include="helpers\atn.aspx" />
+    <Content Include="helpers\checkcomboentry.aspx" />
+    <Content Include="helpers\checksignature.aspx" />
+    <Content Include="helpers\dlpdf.aspx" />
+    <Content Include="helpers\txn_dele.aspx" />
+    <Content Include="helpers\txn_display2.aspx" />
+    <Content Include="helpers\detailrow_add.aspx" />
+    <Content Include="helpers\detailrow_del.aspx" />
+    <Content Include="helpers\detailrow_display.aspx" />
+    <Content Include="helpers\detailrow_savesingle.aspx" />
+    <Content Include="helpers\detailrow_updateamount.aspx" />
+    <Content Include="helpers\dld.aspx" />
+    <Content Include="helpers\SageDBProxy.aspx" />
+    <Content Include="helpers\sethold.aspx" />
+    <Content Include="helpers\Toplinks.ascx" />
+    <Content Include="helpers\txns_add.aspx" />
+    <Content Include="helpers\unapprove.aspx" />
+    <Content Include="helpers\userdelete.aspx" />
+    <Content Include="helpers\userdetail.aspx" />
+    <Content Include="images\accept.png" />
+    <Content Include="images\add.png" />
+    <Content Include="images\ascentria-logo.gif" />
+    <Content Include="images\attachment.png" />
+    <Content Include="images\brush.png" />
+    <Content Include="images\calendar.gif" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\info.png" />
+    <Content Include="images\paperclip.gif" />
+    <Content Include="images\recycle_bin.png" />
+    <Content Include="images\redpaperclip.png" />
+    <Content Include="images\sig.png" />
+    <Content Include="images\star.png" />
+    <Content Include="js\alert.css" />
+    <Content Include="js\alert\bottom.gif" />
+    <Content Include="js\alert\bottom_left.gif" />
+    <Content Include="js\alert\bottom_right.gif" />
+    <Content Include="js\alert\left.gif" />
+    <Content Include="js\alert\overlay.png" />
+    <Content Include="js\alert\progress.gif" />
+    <Content Include="js\alert\right.gif" />
+    <Content Include="js\alert\top.gif" />
+    <Content Include="js\alert\top_left.gif" />
+    <Content Include="js\alert\top_right.gif" />
+    <Content Include="js\autocomplete.js" />
+    <Content Include="js\base64.js" />
+    <Content Include="js\builder.js" />
+    <Content Include="js\calendarview.js" />
+    <Content Include="js\controls.js" />
+    <Content Include="js\default.css" />
+    <Content Include="js\default\bottom_left.gif" />
+    <Content Include="js\default\bottom_mid.gif" />
+    <Content Include="js\default\bottom_right.gif" />
+    <Content Include="js\default\bottom_right_resize.gif" />
+    <Content Include="js\default\center_left.gif" />
+    <Content Include="js\default\center_right.gif" />
+    <Content Include="js\default\clear.gif" />
+    <Content Include="js\default\close.gif" />
+    <Content Include="js\default\inspect.gif" />
+    <Content Include="js\default\maximize.gif" />
+    <Content Include="js\default\minimize.gif" />
+    <Content Include="js\default\overlay.png" />
+    <Content Include="js\default\resize.gif" />
+    <Content Include="js\default\sizer.gif" />
+    <Content Include="js\default\top_left.gif" />
+    <Content Include="js\default\top_mid.gif" />
+    <Content Include="js\default\top_right.gif" />
+    <Content Include="js\dragdrop.js" />
+    <Content Include="js\effects.js" />
+    <Content Include="js\modalbox.css" />
+    <Content Include="js\modalbox.js" />
+    <Content Include="js\myTabz.js" />
+    <Content Include="js\progressbar.js" />
+    <Content Include="js\prototype.js" />
+    <Content Include="js\scriptaculous.js" />
+    <Content Include="js\slider.js" />
+    <Content Include="js\sound.js" />
+    <Content Include="js\spinner.gif" />
+    <Content Include="js\tabs.js" />
+    <Content Include="js\textarea.js" />
+    <Content Include="js\unittest.js" />
+    <Content Include="js\validation.js" />
+    <Content Include="js\window.js" />
+    <Content Include="js\window_effects.js" />
+    <Content Include="js\window_ext.js" />
+    <Content Include="logviewer.aspx" />
+    <Content Include="processedtxns.aspx" />
+    <Content Include="ProcPDF.aspx" />
+    <Content Include="profile.aspx" />
+    <Content Include="pt_picker.aspx" />
+    <Content Include="singletransaction.aspx" />
+    <Content Include="useradmin.aspx" />
+    <None Include="helpers\dsLogs.xsc">
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsLogs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLogs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="helpers\dsLogs.xss">
+      <DependentUpon>dsLogs.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsRequestDetails.xsc">
+      <DependentUpon>dsRequestDetails.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsRequestDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRequestDetails.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="helpers\dsRequestDetails.xss">
+      <DependentUpon>dsRequestDetails.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsSage.xsc">
+      <DependentUpon>dsSage.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsSage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSage.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="helpers\dsSage.xss">
+      <DependentUpon>dsSage.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsSessions.xsc">
+      <DependentUpon>dsSessions.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsSessions.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessions.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="helpers\dsSessions.xss">
+      <DependentUpon>dsSessions.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsUsers.xsc">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="helpers\dsUsers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsers.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="helpers\dsUsers.xss">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="errors\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61739</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
