@@ -116,6 +116,13 @@
       <DependentUpon>Bigexport.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="dld.aspx.designer.vb">
+      <DependentUpon>dld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dld.aspx.vb">
+      <DependentUpon>dld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="exporter2.aspx.designer.vb">
       <DependentUpon>exporter2.aspx</DependentUpon>
     </Compile>
@@ -465,6 +472,7 @@
     <Content Include="attachfile.aspx" />
     <Content Include="Bigexport.aspx" />
     <Content Include="border-radius.htc" />
+    <Content Include="dld.aspx" />
     <Content Include="exporter2.aspx" />
     <Content Include="exportrebuild.aspx" />
     <Content Include="ex_picker.aspx" />

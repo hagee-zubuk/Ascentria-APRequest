@@ -83,6 +83,8 @@ Partial Public Class logon
                     'If (isCookiePersistent = True) Then authCookie.Expires = authTicket.Expiration
                     Response.Cookies.Add(authCookie)
                     LogMessage("logon", "", "", "", Request)
+                    Dim groupCookie As New HttpCookie("X-GroupMem", groups)
+                    Response.Cookies.Add(groupCookie)
                     Response.Redirect(FormsAuthentication.GetRedirectUrl(txtUsername.Text, False))
                 Else
                     errorLabel.Text = "Authentication did not succeed. Try again."

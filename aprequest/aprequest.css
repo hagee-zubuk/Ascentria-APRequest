@@ -1,4 +1,4 @@
-﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 /* html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline) v1.4 2009-07-27
  | Authors: Eric Meyer & Richard Clark html5doctor.com/html-5-reset-stylesheet/
  */
@@ -594,6 +594,6 @@ div#ascbox, div.ascbox {
 }
 .barcodesec  {
 	float				: right;
-	height				: 80px;
-	width				: 400px;
+	height				: 50px;
+	width				: 300px;
 }

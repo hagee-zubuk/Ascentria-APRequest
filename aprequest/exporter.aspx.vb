@@ -97,6 +97,7 @@ Partial Public Class exporter
         'Dim dataTable As dsRequestDetails.txnsDataTable = New dsRequestDetails.txnsDataTable
         'Me.Adapter.Fill(dataTable)
         'Return dataTable
+        Return Nothing
     End Function
 
 

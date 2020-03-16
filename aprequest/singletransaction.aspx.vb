@@ -54,7 +54,7 @@
                             "value="""
                     If Not .Issite_idNull Then Me.BigSiteName.Text &= oUtil.FetchSageTitle(.site_id, "site")
                     Me.BigSiteName.Text &= """ readonly=""readonly"" id=""txtRegnTitle"" " & _
-                            "style=""width:500px;""/></td><td><input name=""txtSiteCode"" " & _
+                            "/></td><td><input name=""txtSiteCode"" " & _
                             "type=""text"" value="""
                     If Not .Issite_idNull Then Me.BigSiteName.Text &= oUtil.FetchSageTitle(.site_id, "site")
                     Me.BigSiteName.Text &= """ readonly=""readonly"" " & _
@@ -97,7 +97,7 @@
                 Me.txtReqst.Text = oUserTA.GetNameByUsername(.create_user)
                 Me.txtApprv.Text = oUtil.FetchApprovalInfo(.guid)   '  oUserTA.GetNameByUsername(strApprover)
                 If Not .Issp_notesNull Then
-                    Me.litSp_Notes.Text = "<div style=""padding: 5px 10px; font-size: 11pt; border: 1px dotted #abb; width: 750px; margin: 10px auto;"">" & _
+                    Me.litSp_Notes.Text = "<div style=""padding: 5px 10px; font-size: 11pt; border: 1px dotted #abb; width: 100%; margin: 10px auto;"">" & _
                             "<u><b>Note&nbsp;to&nbsp;A/P</b></u>:&nbsp;" & _
                             .sp_notes.Replace(vbCrLf,"<br />") & _
                             "</div>"

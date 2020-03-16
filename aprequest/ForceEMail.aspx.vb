@@ -32,13 +32,13 @@ Partial Public Class ForceEMail
         Try
             Dim Smtp_Server As New SmtpClient
             Dim e_mail As New MailMessage()
-            Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential( _
-                    My.Settings.SMTPUsername, _
-                    My.Settings.SMTPPassword)
-            Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
-            Smtp_Server.EnableSsl = False
-            Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
+            'Smtp_Server.UseDefaultCredentials = False
+            'Smtp_Server.Credentials = New Net.NetworkCredential( _
+            '        My.Settings.SMTPUsername, _
+            '        My.Settings.SMTPPassword)
+            'Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
+            'Smtp_Server.EnableSsl = False
+            'Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
 
             e_mail = New MailMessage()
             e_mail.From = New MailAddress(My.Settings.SMTPSender)
@@ -59,7 +59,7 @@ Partial Public Class ForceEMail
 
     Private Sub GetTxns()
         Dim strCN As String = ConfigurationManager.ConnectionStrings("aprequestConnectionString").ConnectionString
-        Dim strSQL As String = "SELECT [guid], [create_user], [txn_no], [total_amount] " & _
+        Dim strSQL As String = "SELECT TOP 30 [guid], [create_user], [txn_no], [total_amount] " & _
                 "FROM [transactions] " & _
                 "ORDER BY [txn_no] DESC"
         Dim objLI As ListItem
@@ -165,13 +165,13 @@ Partial Public Class ForceEMail
         Try
             Dim Smtp_Server As New SmtpClient
             Dim e_mail As New MailMessage()
-            Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential( _
-                    My.Settings.SMTPUsername, _
-                    My.Settings.SMTPPassword)
-            Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
-            Smtp_Server.EnableSsl = False
-            Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
+            'Smtp_Server.UseDefaultCredentials = False
+            'Smtp_Server.Credentials = New Net.NetworkCredential( _
+            '        My.Settings.SMTPUsername, _
+            '        My.Settings.SMTPPassword)
+            'Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
+            'Smtp_Server.EnableSsl = False
+            'Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
 
             e_mail = New MailMessage()
             e_mail.From = New MailAddress(My.Settings.SMTPSender)

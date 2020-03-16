@@ -104,6 +104,7 @@ Partial Public Class exporter2
             Response.Cookies("MSG").Value = "you do not have adequate rights to that page"
             Response.Redirect("~/default.aspx")
         End If
+        Server.ScriptTimeout = 600  ' 10 minutes = 600 = 10 * 60seconds
         Me.Toplinks1.GUID = Me.GUID
         Me.usrGUID.Value = Me.GUID
         'lnkAdmin.Visible = Me.IsAdmin
@@ -688,7 +689,7 @@ Partial Public Class exporter2
         Dim strFNGUID$ = oHash.MkGUID
         strFileBase = Path.Combine(strDLFdr, strFNGUID)
         strFileName = strFileBase & ".csv"
-
+        
         Dim oTxnTA As New dsRequestDetailsTableAdapters.txnsTA
         Dim oDetTA As New dsRequestDetailsTableAdapters.requestdetailsTableAdapter
 
@@ -860,27 +861,13 @@ Partial Public Class exporter2
 
             ' perform download
             If True Then 'False Then
+                ' redirect to something else!
+                Session("NSF") = strZipFile
+                Dim strFH =oHash.EncryptData( strZipFile )
+                strFH = System.Web.HttpUtility.UrlEncode(strFH)
                 Response.Clear()
-                Response.ContentType = "application/octet-stream"
-                Response.AppendHeader("Content-Type", "application/octet-stream")
-                Response.AppendHeader("Content-Transfer-Encoding", "binary")
-                strNiceName = strNiceName & ".zip"
-                Response.RedirectLocation = Response.RedirectLocation & "/" & strNiceName 
-                'Dim filedata() As Byte = File.ReadAllBytes(strZipFile)                
-                'Dim cd As New ContentDisposition
-                'cd.Inline = False
-                'cd.Size = filedata.Length
-                'cd.FileName = strNiceName & ".zip" '"export.xls"
-                Response.AppendHeader("Content-disposition", "attachment;filename=""" & strNiceName & """")
-                Response.TransmitFile(strZipFile)
-                'Response.AppendHeader("Content-Disposition", cd.ToString())
+                Response.Redirect("~/dld.aspx?FSN=" & strFH)
                 
-                'Response.WriteFile(strZipFile)
-                'Response.OutputStream.Write(filedata, 0, filedata.Length)
-                'Response.Cookies("MSG").Value = "export done"
-                Response.Flush()
-                Response.End()
-                Response.Close()
             End If
         End If
     End Sub
@@ -947,5 +934,72 @@ Partial Public Class exporter2
 
     Private Sub lnkBack_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lnkBack.Click
         Response.Redirect("~/ex_picker.aspx")
+    End Sub
+
+    Protected Sub btnCRQ_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnCRQ.Click
+        'Response.Redirect("~/chkreqqueue.aspx")
+        Dim strDLFdr$ = My.Settings.DownloadPath
+        Dim oHash As New zHashes
+        Dim strFileName$, strFileBase$, strMesg$
+        Dim strNiceName$ = "Request_Queue.csv"
+        Dim strFNGUID$ = "Q_exp_" & oHash.MkGUID
+        strFileBase = Path.Combine(strDLFdr, strFNGUID)
+        strFileName = strFileBase & ".csv"
+        
+        Server.ScriptTimeout = 600
+        Dim strSQL$ = "SELECT txn.[txn_no]" & _
+	            ", txn.[entity_id]" & _
+	            ", txn.[vendor_id]" & _
+	            ", CONVERT(VARCHAR, txn.[create_at], 101) AS [request date]" & _
+	            ", CONVERT(VARCHAR, txn.[due_dt], 101) AS [due date]" & _
+	            ", COALESCE(ucf.[fullname], txn.[create_user]) AS [requested by]" & _
+	            ", txn.[total_amount] AS [amount]" & _
+	            ", txn.[hash]" & _
+	            ", txn.[isdone]" & _
+	            ", txn.[isexported]" & _
+	            ", txn.[isapproved] " & _
+                "FROM [transactions] AS txn " & _
+	            "LEFT JOIN [userconfig] AS ucf ON txn.[create_user]=ucf.[username] " & _
+                "WHERE [due_dt] > '2010-01-01' AND [isapproved] <> 1 AND [isexported] <> 1 AND [hash]<>'approved' " & _
+                "ORDER BY [due_dt]"
+        Dim strCN$ = ConfigurationManager.ConnectionStrings("aprequestConnectionString").ConnectionString
+        Dim cn As New SqlClient.SqlConnection(strCN)
+        cn.Open()        
+
+        Dim cmd As New SqlClient.SqlCommand(strSQL, cn)
+        cmd.CommandType = CommandType.Text
+        
+        Dim row As SqlDataReader = Nothing
+        Try          
+            row = cmd.ExecuteReader()
+        Catch ex As Exception
+            strMesg = ex.Message
+            Response.Write("<pre>" & strMesg & "</pre>")
+            Exit Sub
+        End Try
+
+        ' open the file for writing
+        Dim oFWriter As New StreamWriter(strFileName)
+        Dim oU As New ZUtils
+        If (row.HasRows) Then
+            Dim strEnt$, strVen$
+            oFWriter.WriteLine("""Txn#"",""Entity ID"",""Entity"",""Vendor""" & _
+                    ",""Request Date"",""Due Date"",""Requested By"",""Amount""")
+            While row.Read()
+                strEnt = oU.FetchSageTitle(row("entity_id"), "entity")
+                strVen = oU.FetchSageTitle(row("vendor_id"), "vendor")
+                oFWriter.WriteLine(row("txn_no") & "," & row("entity_id") & "," & _
+                             """" & strEnt & """,""" & strVen & """," & _
+                             """" & row("request date") & """,""" & row("due date") & """," & _
+                             """" & row("requested by") & """," & row("amount") )
+            End While
+            oFWriter.Close()
+
+            Session("NSF") = strFileName
+            Dim strFH = oHash.EncryptData( strFileName )
+            strFH = System.Web.HttpUtility.UrlEncode(strFH)
+            Response.Clear()
+            Response.Redirect("~/dld.aspx?FSN=" & strFH)
+        End If
     End Sub
 End Class

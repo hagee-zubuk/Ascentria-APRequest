@@ -9,7 +9,7 @@
           <NativeDebugging>False</NativeDebugging>
           <SQLDebugging>False</SQLDebugging>
           <PublishCopyOption>RunFiles</PublishCopyOption>
-          <PublishTargetLocation>h:\aprequest\</PublishTargetLocation>
+          <PublishTargetLocation>H:\aprequest\200315\</PublishTargetLocation>
           <PublishDeleteAllFiles>True</PublishDeleteAllFiles>
           <PublishCopyAppData>False</PublishCopyAppData>
           <ExternalProgram>

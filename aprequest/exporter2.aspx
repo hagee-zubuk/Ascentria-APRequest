@@ -273,6 +273,8 @@ document.observe('dom:loaded', function() {
             <asp:Literal ID="litNote" runat="server"></asp:Literal>
         </div>
         <div style="float:none; clear: both;">&nbsp;</div>
+        <div style="text-align: center; width: 100%; margin: 2px 0px 5px;">      
+        </div>
         <div id="filterdiv" style="width: 100%; padding: 3px 0px 5px 4px; clear: both; float: none;">
             <div style="float: left; width: 50%;">
             Show only:
@@ -291,6 +293,7 @@ document.observe('dom:loaded', function() {
             </div>
             <div style="float: left; width: 10%;">
                 <asp:Button ID="btnRefresh" runat="server" Text="Refresh"></asp:Button>
+                
             </div>
         </div>
             <div style="text-align: center;">
@@ -306,6 +309,7 @@ document.observe('dom:loaded', function() {
                         <asp:CheckBox ID="chkSim" runat="server" />&nbsp;Simulate Only&nbsp;
                         <asp:Button ID="btnExport" runat="server" Text="Export Checked Items" CssClass="button-primary" />
                     </div>
+                    <br /><asp:Button ID="btnCrQ" runat="server" Text="Export Req Queue" CssClass="button-primary" />
                 </div>
             </div>
         </div>

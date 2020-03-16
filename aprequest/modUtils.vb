@@ -217,22 +217,21 @@ Module modUtils
         'strEMAddr &= "hagee@argao.net"
 
         Try
-            Dim Smtp_Server As New SmtpClient
             Dim e_mail As New MailMessage()
-            Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential( _
-                    My.Settings.SMTPUsername, _
-                    My.Settings.SMTPPassword)
-            Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
-            Smtp_Server.EnableSsl = False
-            Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
-
             e_mail = New MailMessage()
             e_mail.From = New MailAddress(My.Settings.SMTPSender)
             e_mail.Subject = My.Settings.SMTPSubjectPrefix & " " & strSubj ' Approval Required"
             e_mail.To.Add(strEMAddr)
             e_mail.IsBodyHtml = True
             e_mail.Body = strMesg
+            Dim Smtp_Server As New SmtpClient
+            'Smtp_Server.UseDefaultCredentials = False
+            'Smtp_Server.Credentials = New Net.NetworkCredential( _
+            '        My.Settings.SMTPUsername, _
+            '        My.Settings.SMTPPassword)
+            'Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
+            'Smtp_Server.EnableSsl = False
+            'Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
             Smtp_Server.Send(e_mail)
             LogMessage("Message sent to: " & strEMAddr & vbCrLf & vbCrLf & strMesg, strGUID, "", "", Nothing)
         Catch error_t As Exception
@@ -272,15 +271,7 @@ Module modUtils
         'strEMAddr &= "hagee@argao.net"
 
         Try
-            Dim Smtp_Server As New SmtpClient
             Dim e_mail As New MailMessage()
-            Smtp_Server.UseDefaultCredentials = False
-            Smtp_Server.Credentials = New Net.NetworkCredential( _
-                    My.Settings.SMTPUsername, _
-                    My.Settings.SMTPPassword)
-            Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
-            Smtp_Server.EnableSsl = False
-            Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
 
             e_mail = New MailMessage()
             e_mail.From = New MailAddress(My.Settings.SMTPSender)
@@ -288,6 +279,14 @@ Module modUtils
             e_mail.To.Add(strEMAddr)
             e_mail.IsBodyHtml = True
             e_mail.Body = strMesg
+            Dim Smtp_Server As New SmtpClient
+            'Smtp_Server.UseDefaultCredentials = False
+            'Smtp_Server.Credentials = New Net.NetworkCredential( _
+            '        My.Settings.SMTPUsername, _
+            '        My.Settings.SMTPPassword)
+            'Smtp_Server.Port = Convert.ToInt32(My.Settings.SMTPPort) ' 587
+            'Smtp_Server.EnableSsl = False
+            'Smtp_Server.Host = My.Settings.SMTPServer '"70.90.105.91"
             Smtp_Server.Send(e_mail)
             LogMessage("Message sent to: " & strEMAddr & vbCrLf & vbCrLf & strMesg, strGUID, "", "", Nothing)
         Catch error_t As Exception
